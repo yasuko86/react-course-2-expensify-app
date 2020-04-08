@@ -2,47 +2,74 @@
 
 exports[`should render ExpenseListItem correctly 1`] = `
 Array [
-  <div>
-    <Link
-      to="/edit/1"
-    >
-      <h3>
+  <Link
+    className="list-item"
+    to="/edit/1"
+  >
+    <div>
+      <h3
+        className="list-item__title"
+      >
         Gum
       </h3>
-    </Link>
-    <p>
-      $1.95
-      -
-      1st January, 1970
-    </p>
-  </div>,
-  <div>
-    <Link
-      to="/edit/2"
+      <span
+        className="list-item__sub-title"
+      >
+        1st January, 1970
+      </span>
+    </div>
+    <h3
+      className="list-item__data"
     >
-      <h3>
+      $1.95
+       
+    </h3>
+  </Link>,
+  <Link
+    className="list-item"
+    to="/edit/2"
+  >
+    <div>
+      <h3
+        className="list-item__title"
+      >
         Rent
       </h3>
-    </Link>
-    <p>
-      $1,095.00
-      -
-      28th December, 1969
-    </p>
-  </div>,
-  <div>
-    <Link
-      to="/edit/3"
+      <span
+        className="list-item__sub-title"
+      >
+        28th December, 1969
+      </span>
+    </div>
+    <h3
+      className="list-item__data"
     >
-      <h3>
+      $1,095.00
+       
+    </h3>
+  </Link>,
+  <Link
+    className="list-item"
+    to="/edit/3"
+  >
+    <div>
+      <h3
+        className="list-item__title"
+      >
         Credit Card
       </h3>
-    </Link>
-    <p>
+      <span
+        className="list-item__sub-title"
+      >
+        5th January, 1970
+      </span>
+    </div>
+    <h3
+      className="list-item__data"
+    >
       $45.00
-      -
-      5th January, 1970
-    </p>
-  </div>,
+       
+    </h3>
+  </Link>,
 ]
 `;
